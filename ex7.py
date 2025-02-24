@@ -53,3 +53,13 @@ plt.ylabel("Midpoint Selected")
 plt.title("Binary Search Midpoint Selection for Each Target")
 plt.grid(True)
 plt.show()
+
+
+# 4.)
+'''It is clear that midpoint has a fractional to no affect on the performance
+   of the binary search algorithm. This is largely due to the large nature of the 
+   array being searched. The array is large enough that the midpoint is not a
+   significant factor in the algorithm's performance. It really only affects the 
+   first couple of iterations, but after that, the algorithm converges to the target.
+   Performance remains logarithmic in nature regardless of the midpoint selected.'''
+
